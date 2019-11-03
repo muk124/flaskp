@@ -1,0 +1,23 @@
+The templating engine that flask uses is jinja-2, allows us to write code in our tempplates.
+we can write a for loop within a code block in the html file like:
+starts "   {%for i in lis               %}
+           {% endfor                %}
+		   
+using template inheritance in order to not repeat code 
+using wt form features of flask to make a login user page 	
+string field (username) will be imported from wt forms package which also installed on installing flask_wtf package
+
+we need a secret key for our application that will protect against modifying cookies and cross-site request forgery attacks
+aa0b017a7337fe0033bd695c4b692cfe
+
+orm - object relational mapper - helps us to acces different data bases without changing pythoncode
+
+
+things i am getting to know in this project:
+1) HTML, CSS, jQuery, Bootstrap(for templates)
+2) SQLAlchemy, Flask , jinja-2  
+
+
+3) using flask extension for hashing passwords, bcrypt
+
+
